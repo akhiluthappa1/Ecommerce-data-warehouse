@@ -3,6 +3,8 @@ An end-to-end automated Ecommerce Data Warehouse, encompassing data processing f
 
 This repository contains an end-to-end Ecommerce Data Warehouse solution that automates the process of ingesting, processing, and storing data from raw sources to a fully structured data warehouse. The solution is designed to handle data transformations, implement Slowly Changing Dimensions (SCD), and provide a foundation for business intelligence and analysis. The primary technologies used in this project include PostgreSQL, NoSQL databases, and Python scripts.
 
+Date- https://huggingface.co/datasets/Akill47/EcommerceSales
+
 ## Project Structure
 
 The project is organized into several key components, each responsible for a specific stage in the data processing pipeline:
