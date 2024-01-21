@@ -44,7 +44,8 @@ To set up and run this project, follow these steps:
 
 ```bash
 git clone https://github.com/your-username/ecommerce-data-warehouse.git
-cd ecommerce-data-warehouse```
+cd ecommerce-data-warehouse
+```
 
 ### 2. Install Dependencies
 
