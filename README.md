@@ -44,7 +44,7 @@ To set up and run this project, follow these steps:
 
 ```bash
 git clone https://github.com/your-username/ecommerce-data-warehouse.git
-cd ecommerce-data-warehouse
+cd ecommerce-data-warehouse```
 
 ### 2. Install Dependencies
 
@@ -103,6 +103,6 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For any questions or inquiries, please contact Your Name.
+For any questions or inquiries, please contact me at- https://www.linkedin.com/in/akhil-uthappa-31906315b/   or https://www.akhiluthappa.com
 
 Happy Data Warehousing!
