@@ -46,7 +46,63 @@ To set up and run this project, follow these steps:
 git clone https://github.com/your-username/ecommerce-data-warehouse.git
 cd ecommerce-data-warehouse
 
+### 2. Install Dependencies
 
-Use your BI tool to analyze data, create reports, and gain insights.
-Contributing
+Install the required dependencies and libraries for Python scripts, PostgreSQL, and NoSQL databases.
+
+### 3. Database Configuration
+
+- Set up your PostgreSQL and NoSQL databases as per your project requirements.
+- Update the database connection configurations in the Python scripts used for data ingestion and transformation.
+
+### 4. Cron Job Setup
+
+- Schedule the Python scripts for data ingestion as cron jobs to regularly fetch and load new raw data into the staging tables.
+
+### 5. Data Transformation
+
+- Define data transformation logic in Python scripts as needed.
+- Test and validate the data transformation processes.
+
+### 6. SCD Implementation
+
+- Implement Slowly Changing Dimensions (SCD) logic in the database or Python scripts to handle historical data changes.
+
+### 7. Business Intelligence Tool Integration
+
+- Connect your Business Intelligence (BI) tool to the data warehouse.
+- Create dashboards and reports for data analysis.
+
+## Usage
+
+### Data Ingestion:
+
+- Raw data is ingested automatically via scheduled Python scripts.
+- Data ingestion scripts fetch data from external sources and load it into the staging tables.
+
+### Data Transformation:
+
+- Data transformation scripts process the data in the staging tables.
+- Transformations may include cleaning, validation, and formatting.
+
+### SCD Handling:
+
+- Slowly Changing Dimensions are managed automatically within the data warehouse.
+
+### Business Intelligence:
+
+- Use your BI tool to analyze data, create reports, and gain insights.
+
+## Contributing
+
 Contributions to this project are welcome! If you have any improvements or new features to propose, please open an issue or create a pull request.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contact
+
+For any questions or inquiries, please contact Your Name.
+
+Happy Data Warehousing!
